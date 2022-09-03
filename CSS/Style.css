@@ -1,0 +1,399 @@
+/* Global Classes*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+section{
+  padding: 50px 0px;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.underline{
+border: 1px solid rgba(0, 0, 0, 0.411);
+width: 7%;
+margin: 10px auto;
+}
+.global-heading{
+font-size: 35px;
+letter-spacing: 3px;
+font-weight: 600;
+}
+.small-hading{
+font-size: 20px;
+font-weight: 600;
+}
+.service-box p{
+  font-size: 10PX;
+  padding: 0px 20px;
+  margin: 5px 37px;
+}
+  /* Header Part */
+header{
+ background-color: #87509c;
+ width: 100%;
+ float: left;
+}
+
+.navigation-part{
+width: 100%;
+float: left;
+padding: 10px 0px;
+}
+.hero-part{
+  width: 100%;
+  float: left;
+  margin: 100px 0px;
+  text-align: center;
+  color: #ffffff; 
+}
+h1{
+ font-size: 30px; 
+ font-weight: 600;
+ width: 62%;
+ margin: auto;
+ 
+}
+.hero-part a button {
+  width: 15%;
+  padding: 10px;
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #eb7d4b; 
+  transition: ease-in-out 0.08S;
+}
+.hero-part a button:hover{
+  border-radius: 5px;
+  box-shadow: 4px 4px 4PX #c5511b;
+}
+.logo-part{
+  width: 50%;
+  float: left;
+}
+.menu-part{
+  width: 50%;
+  float: left;
+  padding: 10px 0px;
+  text-align: end;
+}
+.menu-part li{
+display: inline-block;
+margin: 0px 5px;
+padding: 5px;
+border-radius: 5px;
+}
+.menu-part li:hover{
+  background-color: rgba(0, 0, 0, 0.226);
+}
+.menu-part a {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* Service Section */
+#service{
+  background-color: #17c2a4;
+  color: #ffffff;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.service-writing-part{
+width: 100%;
+float: left;
+padding: 10px 0px;
+}
+.service-box-part{
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+.service-box{
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.service-box h2{
+  margin: 10px 0px;
+}
+.service-box img{
+  height: 120px;
+}
+/*team section*/
+#team{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #e7f1f8;
+}
+.team-writing-part{
+  width: 100%;
+  float: left;
+  padding: 10px 0px;  
+}
+.team-box-part{
+  width: 100%;
+  float: left;
+  margin-top: 40px;   
+}
+.team-box{
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.team-box h2{
+  padding-top: 15px;
+}
+.team-box img{
+  max-width: 100%;
+  width: 250px;
+  height: 250px;  
+  border-radius: 50%;
+}
+.team-box P{
+  font-size: 10PX;
+  color: #97a2b2;
+  padding: 0px 20px;
+  margin: 10px 30px; 
+}
+.team-title{
+font-size: 15PX;
+color: #30bae7;  
+font-weight: 400;
+}
+.team-icon i{
+background-color: #bdd1df;
+width: 35px;
+color: #ffffff;
+padding: 10px;
+border-radius: 50px;
+margin: 5px;
+transition: ease-in-out 0.05s;
+}
+.team-icon i:hover{
+  background-color: #ffffff;
+  color: #30bae7;
+}
+/*Skills section*/
+#skills{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.skills-writing-part{
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+}
+.skills-box-part{
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+.skills-box{
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.skills-box h2{
+  padding-top: 15px;
+}
+/*Portfolio section*/
+#portfolio{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #ffdd99;
+}
+.portfolio-writing-part{
+  width: 100%;
+  float: left; 
+  padding: 10px;
+}
+
+.portfolio-box-part{
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+.portfolio-box{
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+.menu a{
+ font-size: 20px;
+ color: black;
+ font-weight: 600;
+ padding: 10px 10px; 
+ 
+}
+.menu li{
+ display: inline-block;
+ margin: 10px 10px;
+ padding: 5px;
+ border-radius: 5px;
+ background-color: rgba(0, 0, 0, 0.089);
+
+}
+.menu li:hover{
+ background-color: #ffffff
+}
+.portfolio-box-part a button{
+  width: 15%;
+  padding: 10px;
+  margin-top: 40px;
+  color: #ffffff;
+  background-color: #17c2a4; 
+  transition: ease-in-out 0.08S;
+}
+.portfolio-box-part a button:hover{
+  border-radius: 5px;
+  box-shadow: 4px 4px 4PX #17c2a3a2;
+}
+
+/*About us Section*/
+#about-us{
+width: 100%;
+float: left;
+text-align: center;
+color: #ffffff;
+background-color: #d74680;
+}
+.about-us-writing-part{
+  width: 100%;
+  float: left; 
+  padding: 10px;
+}
+.about-us-box-part{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.about-us-box{
+  width: 50%;
+  float: left; 
+ 
+}
+.about-us-box img{
+  width: 100px;
+  height: 100px; 
+  margin-bottom: 100px; 
+}
+.about-us-box-hading{
+  width: 150px;
+  height: 150px; 
+  display: inline-block;
+  margin-block-start: 40px;
+  padding-inline-start: 20px;
+}
+.about-us-box-hading p{
+  
+}
+.about-title{
+  color: #f7bf94;
+}
+
+#contact{
+  width: 100%;
+  float: left;
+  background-color: #3c5499;
+  text-align: center;
+  color: #ffffff;
+}
+.contact-writing-part{
+  width: 100%;
+  float: left;
+}
+.contact-form-part{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.form-row{
+  width: 100%;
+  float: left;
+}
+/*Contact Section*/
+#name{
+  background-color: #273a71;
+  padding: 10px;
+  color: #ffffff;
+  width: 50%;
+}
+#email{
+  width: 50%;
+  background-color: #273a71;
+  padding: 10px;
+  color: #ffffff;
+}
+#message{
+  width: 50%;
+  height: 200px;
+  background-color: #273a71;
+  padding: 10px;
+  color: #ffffff;
+}
+.form-name{
+  width: 50%;
+  float: left;
+  padding: 10px;
+  text-align: right;
+}
+.form-email{
+  width: 50%;
+  float: left;
+  text-align: start;
+  padding: 10px;
+}
+.form-message{
+  width: 100%;
+  float: left;
+}
+input::placeholder{
+  color: #ffffff;
+}
+textarea::placeholder{
+  color: #ffffff;
+}
+.form-btn{
+  width: 15%;
+  padding: 10px;
+  margin-top: 40px;
+  color: #ffffff;
+  background-color: #30bae7; 
+  transition: ease-in-out 0.08S;
+}
+.form-btn:hover{
+  border-radius: 5px;
+  box-shadow: 4px 4px 4PX #30bae7;
+}
+/*Fotter Section*/
+#fotter{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #344b8e;
+}
+.fotter a{
+  color: #ffffff;
+  padding: 5px 0px;
+  margin: 5px 5px;
+  
+}
+.fotter li{
+  display: inline-block;
+  margin: 20px 0px;
+  padding: 0px 40px;
+}
+.fotter li:hover{
+  border-radius: 5px;
+  background-color: #328ec3;
+}
